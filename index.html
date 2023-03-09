@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.2.1/redux.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux-thunk/2.4.2/redux-thunk.min.js"></script>
+    <title>redux</title>
+    <style>
+    body{
+    color: #eee;
+    background-color: #333;
+    }
+    </style>
+</head>
+<body>
+    <div class="balance" style="margin-block: 20px;">
+    <div id="amount"></div>
+    <input type="number" placeholder="amount" class="amountInput">
+    <button id="withdraw">withdraw</button>
+    <button id="deposite">deposite</button>
+</div>
+<div class="products" style="margin-block: 20px;">
+    <div class="productsView"></div>
+<input type="text" id="poduct" placeholder="product to add or delete" class="productsInput">
+<button id="addProduct">addProduct</button>
+<button id="removeProduct">removeProduct</button>
+
+</div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
